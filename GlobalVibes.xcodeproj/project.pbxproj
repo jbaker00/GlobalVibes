@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E06B55F2072B31000A4AF95 /* 20-CambodiaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5522072B30D00A4AF95 /* 20-CambodiaFlag.jpeg */; };
+		4E06B5602072B31000A4AF95 /* 13-GreeceFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5532072B30E00A4AF95 /* 13-GreeceFlag.jpeg */; };
+		4E06B5612072B31000A4AF95 /* 12-SantaBarbraFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5542072B30E00A4AF95 /* 12-SantaBarbraFlag.jpeg */; };
+		4E06B5632072B31000A4AF95 /* 16-NassauFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5562072B30F00A4AF95 /* 16-NassauFlag.jpeg */; };
+		4E06B5642072B31000A4AF95 /* 18-IbizaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5572072B30F00A4AF95 /* 18-IbizaFlag.jpeg */; };
+		4E06B5652072B31000A4AF95 /* 8-JamicaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5582072B30F00A4AF95 /* 8-JamicaFlag.jpeg */; };
+		4E06B5662072B31000A4AF95 /* 11-LosCabosFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B5592072B30F00A4AF95 /* 11-LosCabosFlag.jpeg */; };
+		4E06B5672072B31000A4AF95 /* 19-FloridaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B55A2072B30F00A4AF95 /* 19-FloridaFlag.jpeg */; };
+		4E06B5682072B31000A4AF95 /* 9-FijiFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B55B2072B30F00A4AF95 /* 9-FijiFlag.jpeg */; };
+		4E06B5692072B31000A4AF95 /* 15-IndonesiaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B55C2072B30F00A4AF95 /* 15-IndonesiaFlag.jpeg */; };
+		4E06B56A2072B31000A4AF95 /* 10-FlordiaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B55D2072B31000A4AF95 /* 10-FlordiaFlag.jpeg */; };
+		4E06B56B2072B31000A4AF95 /* 14-RivieraMayaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B55E2072B31000A4AF95 /* 14-RivieraMayaFlag.jpeg */; };
+		4E06B56D2072C4E900A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E06B56C2072C4E800A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg */; };
 		4E3F5FCF20712CA600F4E97C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FCE20712CA600F4E97C /* AppDelegate.m */; };
 		4E3F5FD220712CA600F4E97C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FD120712CA600F4E97C /* ViewController.m */; };
 		4E3F5FD520712CA600F4E97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3F5FD320712CA600F4E97C /* Main.storyboard */; };
@@ -50,6 +63,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E06B5522072B30D00A4AF95 /* 20-CambodiaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20-CambodiaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B5532072B30E00A4AF95 /* 13-GreeceFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13-GreeceFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B5542072B30E00A4AF95 /* 12-SantaBarbraFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12-SantaBarbraFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B5562072B30F00A4AF95 /* 16-NassauFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "16-NassauFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B5572072B30F00A4AF95 /* 18-IbizaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "18-IbizaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B5582072B30F00A4AF95 /* 8-JamicaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8-JamicaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B5592072B30F00A4AF95 /* 11-LosCabosFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-LosCabosFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B55A2072B30F00A4AF95 /* 19-FloridaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "19-FloridaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B55B2072B30F00A4AF95 /* 9-FijiFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9-FijiFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B55C2072B30F00A4AF95 /* 15-IndonesiaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "15-IndonesiaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B55D2072B31000A4AF95 /* 10-FlordiaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10-FlordiaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B55E2072B31000A4AF95 /* 14-RivieraMayaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14-RivieraMayaFlag.jpeg"; sourceTree = "<group>"; };
+		4E06B56C2072C4E800A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "17-StVincentTheGrenadinesFlag.jpeg"; sourceTree = "<group>"; };
 		4E3F5FCA20712CA600F4E97C /* GlobalVibes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalVibes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3F5FCD20712CA600F4E97C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E3F5FCE20712CA600F4E97C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -183,6 +209,19 @@
 				4EF820F02071AFBB00E72569 /* 5-ThailandFlag.jpeg */,
 				4EF820F42071AFBB00E72569 /* 6-MediterraneanFlag.jpeg */,
 				4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */,
+				4E06B5582072B30F00A4AF95 /* 8-JamicaFlag.jpeg */,
+				4E06B55B2072B30F00A4AF95 /* 9-FijiFlag.jpeg */,
+				4E06B55D2072B31000A4AF95 /* 10-FlordiaFlag.jpeg */,
+				4E06B5592072B30F00A4AF95 /* 11-LosCabosFlag.jpeg */,
+				4E06B5542072B30E00A4AF95 /* 12-SantaBarbraFlag.jpeg */,
+				4E06B5532072B30E00A4AF95 /* 13-GreeceFlag.jpeg */,
+				4E06B55E2072B31000A4AF95 /* 14-RivieraMayaFlag.jpeg */,
+				4E06B55C2072B30F00A4AF95 /* 15-IndonesiaFlag.jpeg */,
+				4E06B5562072B30F00A4AF95 /* 16-NassauFlag.jpeg */,
+				4E06B56C2072C4E800A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg */,
+				4E06B5572072B30F00A4AF95 /* 18-IbizaFlag.jpeg */,
+				4E06B55A2072B30F00A4AF95 /* 19-FloridaFlag.jpeg */,
+				4E06B5522072B30D00A4AF95 /* 20-CambodiaFlag.jpeg */,
 			);
 			path = flags;
 			sourceTree = "<group>";
@@ -310,21 +349,34 @@
 				4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */,
 				4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */,
 				4E3F5FDA20712CA600F4E97C /* LaunchScreen.storyboard in Resources */,
+				4E06B5662072B31000A4AF95 /* 11-LosCabosFlag.jpeg in Resources */,
 				4EF820EE2071AFB100E72569 /* 5-ThailandScene.jpeg in Resources */,
+				4E06B5692072B31000A4AF95 /* 15-IndonesiaFlag.jpeg in Resources */,
 				4EF820EA2071AFB100E72569 /* 3-DisneyCruiseScene.jpeg in Resources */,
 				4EF820E92071AFB100E72569 /* 6-MediterraneanScene.jpeg in Resources */,
 				4EF820F72071AFBC00E72569 /* 5-ThailandFlag.jpeg in Resources */,
+				4E06B5682072B31000A4AF95 /* 9-FijiFlag.jpeg in Resources */,
+				4E06B55F2072B31000A4AF95 /* 20-CambodiaFlag.jpeg in Resources */,
+				4E06B5602072B31000A4AF95 /* 13-GreeceFlag.jpeg in Resources */,
+				4E06B56B2072B31000A4AF95 /* 14-RivieraMayaFlag.jpeg in Resources */,
+				4E06B5612072B31000A4AF95 /* 12-SantaBarbraFlag.jpeg in Resources */,
 				4EF820FC2071AFBC00E72569 /* 7-HawaiiFlag.jpeg in Resources */,
+				4E06B5632072B31000A4AF95 /* 16-NassauFlag.jpeg in Resources */,
 				4EF820FA2071AFBC00E72569 /* 1-BermudaFlag.jpeg in Resources */,
 				4EF820F62071AFBC00E72569 /* 3-DisneyFlag.jpeg in Resources */,
+				4E06B56A2072B31000A4AF95 /* 10-FlordiaFlag.jpeg in Resources */,
 				4EF820FB2071AFBC00E72569 /* 6-MediterraneanFlag.jpeg in Resources */,
 				4EF820EC2071AFB100E72569 /* 1-BrumudaScene.jpeg in Resources */,
+				4E06B56D2072C4E900A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg in Resources */,
 				4EF820EB2071AFB100E72569 /* 4-BahamaScene.jpeg in Resources */,
 				4E3F5FD720712CA600F4E97C /* Assets.xcassets in Resources */,
+				4E06B5642072B31000A4AF95 /* 18-IbizaFlag.jpeg in Resources */,
 				4EF820F82071AFBC00E72569 /* 2-PlayaDelCarmenFlag.jpeg in Resources */,
 				4EF820ED2071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg in Resources */,
+				4E06B5672072B31000A4AF95 /* 19-FloridaFlag.jpeg in Resources */,
 				4E3F5FD520712CA600F4E97C /* Main.storyboard in Resources */,
 				4EF820E82071AFB100E72569 /* 7-HawaiiScene.jpeg in Resources */,
+				4E06B5652072B31000A4AF95 /* 8-JamicaFlag.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
