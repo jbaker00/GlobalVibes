@@ -15,6 +15,21 @@
 		4E3F5FDD20712CA600F4E97C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FDC20712CA600F4E97C /* main.m */; };
 		4E3F5FE720712CA600F4E97C /* GlobalVibesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FE620712CA600F4E97C /* GlobalVibesTests.m */; };
 		4E3F5FF220712CA600F4E97C /* GlobalVibesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FF120712CA600F4E97C /* GlobalVibesUITests.m */; };
+		4EF820E82071AFB100E72569 /* 7-HawaiiScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */; };
+		4EF820E92071AFB100E72569 /* 6-MediterraneanScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */; };
+		4EF820EA2071AFB100E72569 /* 3-DisneyCruiseScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */; };
+		4EF820EB2071AFB100E72569 /* 4-BahamaScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E42071AFB000E72569 /* 4-BahamaScene.jpeg */; };
+		4EF820EC2071AFB100E72569 /* 1-BrumudaScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E52071AFB000E72569 /* 1-BrumudaScene.jpeg */; };
+		4EF820ED2071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E62071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg */; };
+		4EF820EE2071AFB100E72569 /* 5-ThailandScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E72071AFB100E72569 /* 5-ThailandScene.jpeg */; };
+		4EF820F62071AFBC00E72569 /* 3-DisneyFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820EF2071AFBB00E72569 /* 3-DisneyFlag.jpeg */; };
+		4EF820F72071AFBC00E72569 /* 5-ThailandFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F02071AFBB00E72569 /* 5-ThailandFlag.jpeg */; };
+		4EF820F82071AFBC00E72569 /* 2-PlayaDelCarmenFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F12071AFBB00E72569 /* 2-PlayaDelCarmenFlag.jpeg */; };
+		4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F22071AFBB00E72569 /* 4-BahamasFlag.jpeg */; };
+		4EF820FA2071AFBC00E72569 /* 1-BermudaFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F32071AFBB00E72569 /* 1-BermudaFlag.jpeg */; };
+		4EF820FB2071AFBC00E72569 /* 6-MediterraneanFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F42071AFBB00E72569 /* 6-MediterraneanFlag.jpeg */; };
+		4EF820FC2071AFBC00E72569 /* 7-HawaiiFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */; };
+		4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,21 @@
 		4E3F5FED20712CA600F4E97C /* GlobalVibesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalVibesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3F5FF120712CA600F4E97C /* GlobalVibesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalVibesUITests.m; sourceTree = "<group>"; };
 		4E3F5FF320712CA600F4E97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-HawaiiScene.jpeg"; sourceTree = "<group>"; };
+		4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-MediterraneanScene.jpeg"; sourceTree = "<group>"; };
+		4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-DisneyCruiseScene.jpeg"; sourceTree = "<group>"; };
+		4EF820E42071AFB000E72569 /* 4-BahamaScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-BahamaScene.jpeg"; sourceTree = "<group>"; };
+		4EF820E52071AFB000E72569 /* 1-BrumudaScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-BrumudaScene.jpeg"; sourceTree = "<group>"; };
+		4EF820E62071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-PlayaDelCarmenScene.jpeg"; sourceTree = "<group>"; };
+		4EF820E72071AFB100E72569 /* 5-ThailandScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-ThailandScene.jpeg"; sourceTree = "<group>"; };
+		4EF820EF2071AFBB00E72569 /* 3-DisneyFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-DisneyFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820F02071AFBB00E72569 /* 5-ThailandFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-ThailandFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820F12071AFBB00E72569 /* 2-PlayaDelCarmenFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-PlayaDelCarmenFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820F22071AFBB00E72569 /* 4-BahamasFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-BahamasFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820F32071AFBB00E72569 /* 1-BermudaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-BermudaFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820F42071AFBB00E72569 /* 6-MediterraneanFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-MediterraneanFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-HawaiiFlag.jpeg"; sourceTree = "<group>"; };
+		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,7 @@
 		4E3F5FCC20712CA600F4E97C /* GlobalVibes */ = {
 			isa = PBXGroup;
 			children = (
+				4EF820DE2071AF8A00E72569 /* images */,
 				4E3F5FCD20712CA600F4E97C /* AppDelegate.h */,
 				4E3F5FCE20712CA600F4E97C /* AppDelegate.m */,
 				4E3F5FD020712CA600F4E97C /* ViewController.h */,
@@ -130,6 +161,44 @@
 				4E3F5FF320712CA600F4E97C /* Info.plist */,
 			);
 			path = GlobalVibesUITests;
+			sourceTree = "<group>";
+		};
+		4EF820DE2071AF8A00E72569 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */,
+				4EF820E02071AF9900E72569 /* scenes */,
+				4EF820DF2071AF9300E72569 /* flags */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4EF820DF2071AF9300E72569 /* flags */ = {
+			isa = PBXGroup;
+			children = (
+				4EF820F32071AFBB00E72569 /* 1-BermudaFlag.jpeg */,
+				4EF820F12071AFBB00E72569 /* 2-PlayaDelCarmenFlag.jpeg */,
+				4EF820EF2071AFBB00E72569 /* 3-DisneyFlag.jpeg */,
+				4EF820F22071AFBB00E72569 /* 4-BahamasFlag.jpeg */,
+				4EF820F02071AFBB00E72569 /* 5-ThailandFlag.jpeg */,
+				4EF820F42071AFBB00E72569 /* 6-MediterraneanFlag.jpeg */,
+				4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */,
+			);
+			path = flags;
+			sourceTree = "<group>";
+		};
+		4EF820E02071AF9900E72569 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4EF820E52071AFB000E72569 /* 1-BrumudaScene.jpeg */,
+				4EF820E62071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg */,
+				4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */,
+				4EF820E42071AFB000E72569 /* 4-BahamaScene.jpeg */,
+				4EF820E72071AFB100E72569 /* 5-ThailandScene.jpeg */,
+				4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */,
+				4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */,
+			);
+			path = scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +307,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */,
+				4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */,
 				4E3F5FDA20712CA600F4E97C /* LaunchScreen.storyboard in Resources */,
+				4EF820EE2071AFB100E72569 /* 5-ThailandScene.jpeg in Resources */,
+				4EF820EA2071AFB100E72569 /* 3-DisneyCruiseScene.jpeg in Resources */,
+				4EF820E92071AFB100E72569 /* 6-MediterraneanScene.jpeg in Resources */,
+				4EF820F72071AFBC00E72569 /* 5-ThailandFlag.jpeg in Resources */,
+				4EF820FC2071AFBC00E72569 /* 7-HawaiiFlag.jpeg in Resources */,
+				4EF820FA2071AFBC00E72569 /* 1-BermudaFlag.jpeg in Resources */,
+				4EF820F62071AFBC00E72569 /* 3-DisneyFlag.jpeg in Resources */,
+				4EF820FB2071AFBC00E72569 /* 6-MediterraneanFlag.jpeg in Resources */,
+				4EF820EC2071AFB100E72569 /* 1-BrumudaScene.jpeg in Resources */,
+				4EF820EB2071AFB100E72569 /* 4-BahamaScene.jpeg in Resources */,
 				4E3F5FD720712CA600F4E97C /* Assets.xcassets in Resources */,
+				4EF820F82071AFBC00E72569 /* 2-PlayaDelCarmenFlag.jpeg in Resources */,
+				4EF820ED2071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg in Resources */,
 				4E3F5FD520712CA600F4E97C /* Main.storyboard in Resources */,
+				4EF820E82071AFB100E72569 /* 7-HawaiiScene.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
