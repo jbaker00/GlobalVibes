@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (assign, nonatomic) UIInterfaceOrientation lastOrientation;
+
 
 @end
 
