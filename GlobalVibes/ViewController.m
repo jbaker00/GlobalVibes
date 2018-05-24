@@ -76,7 +76,7 @@
              @"19-FloridaFlag.jpeg",
              @"20-CambodiaFlag.jpeg",
              nil];*/
-    NSMutableArray *tripsList = [self loadTripsFromFile:@"BusListSrc"];
+    NSMutableArray *tripsList = [self loadTripsFromFile:@"BusListSrc"];  
     
 }
 
