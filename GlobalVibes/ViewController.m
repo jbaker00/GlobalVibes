@@ -7,16 +7,12 @@
 //
 
 #import "ViewController.h"
-#import <AmazonAd/AmazonAdView.h>
-#import <AmazonAd/AmazonAdOptions.h>
-#import <AmazonAd/AmazonAdError.h>
 
-@interface ViewController () <AmazonAdViewDelegate>
+@interface ViewController ()
 {
     
 }
 
-@property (nonatomic, retain) AmazonAdView *amazonAdView;
 
 @end
 
@@ -31,12 +27,11 @@
 
 @implementation ViewController
 
-@synthesize amazonAdView;
 @synthesize lastOrientation;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    /*// Do any additional setup after loading the view, typically from a nib.
     trips = [NSArray arrayWithObjects:@ "Group cruise to Bermuda",
              @"Group land vacation to Playa Del Carmen",
              @"Group Disney Cruise to Caribbean",
@@ -80,40 +75,75 @@
              @"18-IbizaFlag.jpeg",
              @"19-FloridaFlag.jpeg",
              @"20-CambodiaFlag.jpeg",
-             nil];
+             nil];*/
+    NSMutableArray *tripsList = [self loadTripsFromFile:@"BusListSrc"];
+    
 }
 
-- (void)viewDidAppear:(BOOL)animated
+-(NSMutableArray*)loadTripsFromFile:(NSString*)fileName
 {
-    [self loadAmazonAd];
-}
-
-- (void )loadAmazonAd
-{
-    if (self.amazonAdView) {
-        [self.amazonAdView removeFromSuperview];
-        self.amazonAdView = nil;
+    NSLog(@"Entering ViewController::loadStopsFromFile");
+    
+    //Load the file of the fileName
+    //Set the error Variable to NIL that we will check later
+    NSError *error = nil;
+    //Setup the bundle so we can read the file
+    NSBundle *main =[NSBundle mainBundle];
+    //Setup the file name in the bundlle
+    NSString *path = [main pathForResource:fileName ofType:@"txt"];
+    //Load the file contents into a string
+    NSString *fileContents = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+    
+    //Check for the error code to see if the file read worked
+    if(nil != error)
+    {
+        NSLog(@"Error Resding URL with error %@", error.localizedDescription);
     }
-    // Initialize Auto Ad Size View
-    // const CGRect adFrame = CGRectMake(0.0f, 20.0f, [UIScreen mainScreen].bounds.size.width, 90.0f);
-    //const CGRect adFrame = CGRectMake(0, self.view.frame.size.height - amazonAdView.frame.size.height, [UIScreen mainScreen].bounds.size.width, 90.0f);
     
-    NSLog(@"Bottom of screen location is %f",[UIScreen mainScreen].bounds.size.height);
-    NSLog(@"Height of the ad is %f",amazonAdView.frame.size.height);
-    //const CGRect adFrame = CGRectMake(0.0f, [UIScreen mainScreen].bounds.size.height - 360, [UIScreen mainScreen].bounds.size.width, 90.0f);
-    const CGRect adFrame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 90, [UIScreen mainScreen].bounds.size.width, 90);
-    self.amazonAdView = [[AmazonAdView alloc] initWithFrame:adFrame];
-    [self.amazonAdView setHorizontalAlignment:AmazonAdHorizontalAlignmentCenter];
-    [self.amazonAdView setVerticalAlignment:AmazonAdVerticalAlignmentBottom];
     
-    // Register the ViewController with the delegate to receive callbacks.
-    self.amazonAdView.delegate = self;
+    //Look at the contents of the file loaded into the string and parse it for the columns per row
+    //Set the row seperator
+    NSArray* rows = [fileContents componentsSeparatedByString:@"\n"];
     
-    //Set the ad options and load the ad
-    AmazonAdOptions *options = [AmazonAdOptions options];
-    options.isTestRequest = YES;
-    //options.
-    [self.amazonAdView loadAd:options];
+    //counters
+    int iRow = 0;
+    int iColumn = 0;
+    
+    
+    //MainArray
+    NSMutableArray *rowArray = [NSMutableArray array];
+    
+    for (NSString *row in rows){
+        {
+            if(![row isEqualToString:@""])
+            {
+                //NSLog(@"Starting off row %i with contents %@", iRow, row);
+                iRow++; //increent the row counter
+                iColumn = 0;
+                NSMutableArray *columnArray = [NSMutableArray array];
+                
+                NSArray* columns = [row componentsSeparatedByString:@","];
+                for(NSString *column in columns)
+                {
+                    //NSLog(@"Adding information to column %i with information %@", iColumn, column);
+                    iColumn++; //increment the column counter
+                    [columnArray addObject:column];
+                }
+                
+                [rowArray addObject:columnArray];
+            }
+            else
+            {
+                //NSLog(@"We found a blank line");
+            }
+        }
+        //NSLog(@"Filled in one row in the table with %i rows and %i columns", iRow, iColumn);
+    }
+    //NSLog(@"Filled in all rows in the table");
+    
+    NSLog(@"Exiting ViewController::loadStopsFromFile");
+    
+    return rowArray;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -155,44 +185,9 @@
         // Reload Amazon Ad upon rotation.
         // Important: Amazon expandable rich media ads target landscape and portrait mode separately.
         // If your app supports device rotation events, your app must reload the ad when rotating between portrait and landscape mode.
-        [self loadAmazonAd];
     }];
 }
 
-#pragma mark AmazonAdViewDelegate
 
-- (UIViewController *)viewControllerForPresentingModalView
-{
-    return self;
-}
-
-- (void)adViewDidLoad:(AmazonAdView *)view
-{
-    // Add the newly created Amazon Ad view to our view.
-    [self.view addSubview:view];
-    NSLog(@"Ad loaded");
-}
-
-- (void)adViewDidFailToLoad:(AmazonAdView *)view withError:(AmazonAdError *)error
-{
-    NSLog(@"Ad Failed to load. Error code %d: %@", error.errorCode, error.errorDescription);
-}
-
-- (void)adViewWillExpand:(AmazonAdView *)view
-{
-    NSLog(@"Ad will expand");
-    // Save orientation so when our ad collapses we can reload an ad
-    // Also useful if you need to programmatically rearrange view on orientation change
-    lastOrientation = [[UIApplication sharedApplication] statusBarOrientation];
-}
-
-- (void)adViewDidCollapse:(AmazonAdView *)view
-{
-    NSLog(@"Ad has collapsed");
-    // Check for if the orientation has changed while the view disappeared.
-    if (lastOrientation != [[UIApplication sharedApplication] statusBarOrientation]) {
-        [self loadAmazonAd];
-    }
-}
 
 @end

@@ -45,7 +45,7 @@
 		4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */; };
 		5F00816050364801BFAAB24A /* libPods-GlobalVibesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */; };
 		7F56F07193085A7C98FAC1CC /* libPods-GlobalVibesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */; };
-		F51D6F57F34F20DCF96B86EE /* libPods-GlobalVibes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */; };
+		ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADF8DE8F20B64C79000EC30F /* TripList.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FA8F0CBCB3927A4E659A682 /* Pods-GlobalVibes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibes/Pods-GlobalVibes.debug.xcconfig"; sourceTree = "<group>"; };
 		4E06B5522072B30D00A4AF95 /* 20-CambodiaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20-CambodiaFlag.jpeg"; sourceTree = "<group>"; };
 		4E06B5532072B30E00A4AF95 /* 13-GreeceFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13-GreeceFlag.jpeg"; sourceTree = "<group>"; };
 		4E06B5542072B30E00A4AF95 /* 12-SantaBarbraFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12-SantaBarbraFlag.jpeg"; sourceTree = "<group>"; };
@@ -111,13 +110,9 @@
 		4EF820F42071AFBB00E72569 /* 6-MediterraneanFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-MediterraneanFlag.jpeg"; sourceTree = "<group>"; };
 		4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-HawaiiFlag.jpeg"; sourceTree = "<group>"; };
 		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
-		56C8F01B2E7AA98FD46592B1 /* Pods-GlobalVibesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesTests/Pods-GlobalVibesTests.release.xcconfig"; sourceTree = "<group>"; };
 		591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74269CC21E1028CD9F4AB8E7 /* Pods-GlobalVibes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibes/Pods-GlobalVibes.release.xcconfig"; sourceTree = "<group>"; };
-		AEA9976B9E17596B7AF4D0B9 /* Pods-GlobalVibesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C7FE3214E1869D67C3DFC330 /* Pods-GlobalVibesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CF428EC5F4ABDE9AEAE2B258 /* Pods-GlobalVibesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesTests/Pods-GlobalVibesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF8DE8F20B64C79000EC30F /* TripList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripList.txt; sourceTree = "<group>"; };
 		FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,7 +121,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51D6F57F34F20DCF96B86EE /* libPods-GlobalVibes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,19 +153,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		498D6B2EAE614FA2613D150F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2FA8F0CBCB3927A4E659A682 /* Pods-GlobalVibes.debug.xcconfig */,
-				74269CC21E1028CD9F4AB8E7 /* Pods-GlobalVibes.release.xcconfig */,
-				CF428EC5F4ABDE9AEAE2B258 /* Pods-GlobalVibesTests.debug.xcconfig */,
-				56C8F01B2E7AA98FD46592B1 /* Pods-GlobalVibesTests.release.xcconfig */,
-				AEA9976B9E17596B7AF4D0B9 /* Pods-GlobalVibesUITests.debug.xcconfig */,
-				C7FE3214E1869D67C3DFC330 /* Pods-GlobalVibesUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		4E3F5FC120712CA600F4E97C = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +160,6 @@
 				4E3F5FE520712CA600F4E97C /* GlobalVibesTests */,
 				4E3F5FF020712CA600F4E97C /* GlobalVibesUITests */,
 				4E3F5FCB20712CA600F4E97C /* Products */,
-				498D6B2EAE614FA2613D150F /* Pods */,
 				43E967937F05CFAF728608E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -207,6 +187,7 @@
 				4E3F5FD820712CA600F4E97C /* LaunchScreen.storyboard */,
 				4E3F5FDB20712CA600F4E97C /* Info.plist */,
 				4E3F5FDC20712CA600F4E97C /* main.m */,
+				ADF8DE8F20B64C79000EC30F /* TripList.txt */,
 			);
 			path = GlobalVibes;
 			sourceTree = "<group>";
@@ -287,12 +268,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E3F5FF620712CA600F4E97C /* Build configuration list for PBXNativeTarget "GlobalVibes" */;
 			buildPhases = (
-				0A8014F3098CD4A3847E1895 /* [CP] Check Pods Manifest.lock */,
 				4E3F5FC620712CA600F4E97C /* Sources */,
 				4E3F5FC720712CA600F4E97C /* Frameworks */,
 				4E3F5FC820712CA600F4E97C /* Resources */,
-				B2BF61CEE12B4E8E223B32D5 /* [CP] Embed Pods Frameworks */,
-				60A04F7645E86FC41EE84A60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -398,6 +376,7 @@
 				4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */,
 				4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */,
 				4E3F5FDA20712CA600F4E97C /* LaunchScreen.storyboard in Resources */,
+				ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */,
 				4E06B5662072B31000A4AF95 /* 11-LosCabosFlag.jpeg in Resources */,
 				4EF820EE2071AFB100E72569 /* 5-ThailandScene.jpeg in Resources */,
 				4E06B5692072B31000A4AF95 /* 15-IndonesiaFlag.jpeg in Resources */,
@@ -446,39 +425,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A8014F3098CD4A3847E1895 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GlobalVibes-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		60A04F7645E86FC41EE84A60 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlobalVibes/Pods-GlobalVibes-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6DE4BAC0B92ABE06AF347198 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,21 +471,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2BF61CEE12B4E8E223B32D5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlobalVibes/Pods-GlobalVibes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B92D2BCA93648991FCB4B4E6 /* [CP] Check Pods Manifest.lock */ = {
@@ -764,7 +695,6 @@
 		};
 		4E3F5FF720712CA600F4E97C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA8F0CBCB3927A4E659A682 /* Pods-GlobalVibes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -779,7 +709,6 @@
 		};
 		4E3F5FF820712CA600F4E97C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74269CC21E1028CD9F4AB8E7 /* Pods-GlobalVibes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -794,7 +723,6 @@
 		};
 		4E3F5FFA20712CA600F4E97C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF428EC5F4ABDE9AEAE2B258 /* Pods-GlobalVibesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -810,7 +738,6 @@
 		};
 		4E3F5FFB20712CA600F4E97C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56C8F01B2E7AA98FD46592B1 /* Pods-GlobalVibesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -826,7 +753,6 @@
 		};
 		4E3F5FFD20712CA600F4E97C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA9976B9E17596B7AF4D0B9 /* Pods-GlobalVibesUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
@@ -841,7 +767,6 @@
 		};
 		4E3F5FFE20712CA600F4E97C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7FE3214E1869D67C3DFC330 /* Pods-GlobalVibesUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
