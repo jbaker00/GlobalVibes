@@ -28,6 +28,7 @@
 		4E3F5FDD20712CA600F4E97C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FDC20712CA600F4E97C /* main.m */; };
 		4E3F5FE720712CA600F4E97C /* GlobalVibesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FE620712CA600F4E97C /* GlobalVibesTests.m */; };
 		4E3F5FF220712CA600F4E97C /* GlobalVibesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FF120712CA600F4E97C /* GlobalVibesUITests.m */; };
+		4EAEC21F20CD88B4001A6928 /* 8-JamicaScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EAEC21E20CD88B4001A6928 /* 8-JamicaScene.jpeg */; };
 		4EF820E82071AFB100E72569 /* 7-HawaiiScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */; };
 		4EF820E92071AFB100E72569 /* 6-MediterraneanScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */; };
 		4EF820EA2071AFB100E72569 /* 3-DisneyCruiseScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */; };
@@ -96,6 +97,7 @@
 		4E3F5FED20712CA600F4E97C /* GlobalVibesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalVibesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3F5FF120712CA600F4E97C /* GlobalVibesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalVibesUITests.m; sourceTree = "<group>"; };
 		4E3F5FF320712CA600F4E97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAEC21E20CD88B4001A6928 /* 8-JamicaScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8-JamicaScene.jpeg"; sourceTree = "<group>"; };
 		4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-HawaiiScene.jpeg"; sourceTree = "<group>"; };
 		4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-MediterraneanScene.jpeg"; sourceTree = "<group>"; };
 		4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-DisneyCruiseScene.jpeg"; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
 		591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD83BB3F20B68211007C5034 /* GlobalVibes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GlobalVibes; sourceTree = "<group>"; };
+		AD83BB3F20B68211007C5034 /* GlobalVibes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GlobalVibes; sourceTree = "<group>"; };
 		ADF8DE8F20B64C79000EC30F /* TripList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripList.txt; sourceTree = "<group>"; };
 		FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -260,6 +262,7 @@
 				4EF820E72071AFB100E72569 /* 5-ThailandScene.jpeg */,
 				4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */,
 				4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */,
+				4EAEC21E20CD88B4001A6928 /* 8-JamicaScene.jpeg */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				4E06B56D2072C4E900A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg in Resources */,
 				4EF820EB2071AFB100E72569 /* 4-BahamaScene.jpeg in Resources */,
 				4E3F5FD720712CA600F4E97C /* Assets.xcassets in Resources */,
+				4EAEC21F20CD88B4001A6928 /* 8-JamicaScene.jpeg in Resources */,
 				4E06B5642072B31000A4AF95 /* 18-IbizaFlag.jpeg in Resources */,
 				4EF820F82071AFBC00E72569 /* 2-PlayaDelCarmenFlag.jpeg in Resources */,
 				4EF820ED2071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg in Resources */,
