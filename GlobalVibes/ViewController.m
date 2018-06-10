@@ -18,7 +18,7 @@
 
 @interface ViewController ()
 {
-    NSArray *trips;
+    NSMutableArray *trips;
     NSArray *scenes;
     NSArray *flags;
 }
@@ -31,6 +31,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"Entering ViewController::viewDidLoad");
+
     /*// Do any additional setup after loading the view, typically from a nib.
     trips = [NSArray arrayWithObjects:@ "Group cruise to Bermuda",
              @"Group land vacation to Playa Del Carmen",
@@ -76,8 +78,11 @@
              @"19-FloridaFlag.jpeg",
              @"20-CambodiaFlag.jpeg",
              nil];*/
-    NSMutableArray *tripsList = [self loadTripsFromFile:@"BusListSrc"];  
-    
+    //NSMutableArray *tripsList = [self loadTripsFromFile:@"TripList"];
+    trips = [self loadTripsFromFile:@"TripList"];
+
+    NSLog(@"Exiting ViewController::viewDidLoad");
+
 }
 
 -(NSMutableArray*)loadTripsFromFile:(NSString*)fileName
@@ -158,6 +163,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSLog(@"Entering ViewController:UITAbleView cellForRowAtIndexPath");
+
     static NSString *simpleTableIdentifier = @"SimpleTableCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
@@ -167,9 +174,18 @@
     }
     cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
     cell.textLabel.numberOfLines = 0;
-    cell.textLabel.text = [trips objectAtIndex:indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:[flags objectAtIndex:indexPath.row]];
+    //cell.textLabel.text = @"Hello";
+    if(indexPath.row)
+    {
+        //cell.textLabel.text = [trips objectAtIndex:indexPath.row];
+        cell.textLabel.text = trips[indexPath.row][0];
+        cell.imageView.image = [UIImage imageNamed:trips[indexPath.row][2]];
+        //cell.imageView.image = [UIImage imageNamed:[flags objectAtIndex:indexPath.row]];
+    }
+    NSLog(@"Entering ViewController:UITAbleView cellForRowAtIndexPath");
+
     return cell;
+    
 }
 
 - (void)didReceiveMemoryWarning {
