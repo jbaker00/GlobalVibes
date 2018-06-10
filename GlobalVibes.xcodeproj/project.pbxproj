@@ -45,7 +45,6 @@
 		4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */; };
 		5F00816050364801BFAAB24A /* libPods-GlobalVibesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */; };
 		7F56F07193085A7C98FAC1CC /* libPods-GlobalVibesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */; };
-		AD83BB4020B68211007C5034 /* GlobalVibes in Resources */ = {isa = PBXBuildFile; fileRef = AD83BB3F20B68211007C5034 /* GlobalVibes */; };
 		ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADF8DE8F20B64C79000EC30F /* TripList.txt */; };
 /* End PBXBuildFile section */
 
@@ -113,7 +112,7 @@
 		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
 		591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD83BB3F20B68211007C5034 /* GlobalVibes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GlobalVibes; sourceTree = "<group>"; };
+		AD83BB3F20B68211007C5034 /* GlobalVibes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GlobalVibes; sourceTree = "<group>"; };
 		ADF8DE8F20B64C79000EC30F /* TripList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripList.txt; sourceTree = "<group>"; };
 		FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -376,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD83BB4020B68211007C5034 /* GlobalVibes in Resources */,
 				4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */,
 				4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */,
 				4E3F5FDA20712CA600F4E97C /* LaunchScreen.storyboard in Resources */,
