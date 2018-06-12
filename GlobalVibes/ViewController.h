@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
 @interface ViewController : UIViewController
+{
+    @public NSString *strselectedDestination;
+    
+}
 
 @property (assign, nonatomic) UIInterfaceOrientation lastOrientation;
 

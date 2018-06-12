@@ -29,6 +29,7 @@
 		4E3F5FE720712CA600F4E97C /* GlobalVibesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FE620712CA600F4E97C /* GlobalVibesTests.m */; };
 		4E3F5FF220712CA600F4E97C /* GlobalVibesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F5FF120712CA600F4E97C /* GlobalVibesUITests.m */; };
 		4EAEC21F20CD88B4001A6928 /* 8-JamicaScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EAEC21E20CD88B4001A6928 /* 8-JamicaScene.jpeg */; };
+		4EAEC22220CDAC87001A6928 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEC22120CDAC87001A6928 /* DetailViewController.m */; };
 		4EF820E82071AFB100E72569 /* 7-HawaiiScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */; };
 		4EF820E92071AFB100E72569 /* 6-MediterraneanScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */; };
 		4EF820EA2071AFB100E72569 /* 3-DisneyCruiseScene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */; };
@@ -97,6 +98,9 @@
 		4E3F5FF120712CA600F4E97C /* GlobalVibesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalVibesUITests.m; sourceTree = "<group>"; };
 		4E3F5FF320712CA600F4E97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EAEC21E20CD88B4001A6928 /* 8-JamicaScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8-JamicaScene.jpeg"; sourceTree = "<group>"; };
+		4EAEC22020CDAC87001A6928 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4EAEC22120CDAC87001A6928 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4EE1797720D069710014A94C /* GlobalVibes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlobalVibes.entitlements; sourceTree = "<group>"; };
 		4EF820E12071AFB000E72569 /* 7-HawaiiScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-HawaiiScene.jpeg"; sourceTree = "<group>"; };
 		4EF820E22071AFB000E72569 /* 6-MediterraneanScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-MediterraneanScene.jpeg"; sourceTree = "<group>"; };
 		4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-DisneyCruiseScene.jpeg"; sourceTree = "<group>"; };
@@ -114,7 +118,6 @@
 		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
 		591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD83BB3F20B68211007C5034 /* GlobalVibes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GlobalVibes; sourceTree = "<group>"; };
 		ADF8DE8F20B64C79000EC30F /* TripList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripList.txt; sourceTree = "<group>"; };
 		FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -180,6 +183,7 @@
 		4E3F5FCC20712CA600F4E97C /* GlobalVibes */ = {
 			isa = PBXGroup;
 			children = (
+				4EE1797720D069710014A94C /* GlobalVibes.entitlements */,
 				4EF820DE2071AF8A00E72569 /* images */,
 				4E3F5FCD20712CA600F4E97C /* AppDelegate.h */,
 				4E3F5FCE20712CA600F4E97C /* AppDelegate.m */,
@@ -191,7 +195,8 @@
 				4E3F5FDB20712CA600F4E97C /* Info.plist */,
 				4E3F5FDC20712CA600F4E97C /* main.m */,
 				ADF8DE8F20B64C79000EC30F /* TripList.txt */,
-				AD83BB3F20B68211007C5034 /* GlobalVibes */,
+				4EAEC22020CDAC87001A6928 /* DetailViewController.h */,
+				4EAEC22120CDAC87001A6928 /* DetailViewController.m */,
 			);
 			path = GlobalVibes;
 			sourceTree = "<group>";
@@ -340,6 +345,14 @@
 					4E3F5FC920712CA600F4E97C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					4E3F5FE120712CA600F4E97C = {
 						CreatedOnToolsVersion = 9.2;
@@ -537,6 +550,7 @@
 				4E3F5FD220712CA600F4E97C /* ViewController.m in Sources */,
 				4E3F5FDD20712CA600F4E97C /* main.m in Sources */,
 				4E3F5FCF20712CA600F4E97C /* AppDelegate.m in Sources */,
+				4EAEC22220CDAC87001A6928 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,12 +717,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = GlobalVibes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baker.GlobalVibes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -717,12 +734,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = GlobalVibes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baker.GlobalVibes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

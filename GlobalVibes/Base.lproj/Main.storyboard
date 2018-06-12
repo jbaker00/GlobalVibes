@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="860" y="124.58770614692655"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="fuT-AZ-wGR">
             <objects>
-                <viewController id="is5-Ry-hRX" sceneMemberID="viewController">
+                <viewController id="is5-Ry-hRX" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Erf-YD-hsF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,6 +81,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="00p-Xm-R8s"/>
                     </view>
+                    <connections>
+                        <outlet property="imgTrip" destination="oix-By-ojl" id="Wgg-9g-EAM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKW-fg-zEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
