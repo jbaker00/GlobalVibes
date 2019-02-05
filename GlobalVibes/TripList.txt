@@ -1,8 +1,9 @@
-Bremuda,Group cruise to Bermuda,1-BrumudaScene.jpeg,1-BermudaFlag.jpeg
-PlayaDelCarmen,Group land vacation to Playa Del Carmen,2-PlayaDelCarmenScene.jpeg,2-PlayaDelCarmenFlag.jpeg
-DisneyCruise,Group Disney Cruise to Caribbean,3-DisneyCruiseScene.jpeg,3-DisneyFlag.jpeg
-Bahamas,Group cruise to Bahama,4-BahamaScene.jpeg,4-BahamasFlag.jpeg
-Thailand,Group land vacation to Thailand,5-ThailandScene.jpeg,5-ThailandFlag.jpeg
-Mediterranean,Group cruise to Mediterranean,6-MediterraneanScene.jpeg,6-MediterraneanFlag.jpeg
-Hawaii,Group land vacation to Hawaii,7-HawaiiScene.jpeg,7-HawaiiFlag.jpeg
-Jamica,Group land vacation to Jamica,8-JamicaScene.jpeg,8-JamicaFlag.jpeg
+NADA,NADA,NADA,NADA
+Muscat Oman,Al Bustan Palace Ritz-Carlton Hotel,1-BrumudaScene.jpeg,1-BermudaFlag.jpeg
+San Antonio Tx,TownePlace Suites by Marriott,2-PlayaDelCarmenScene.jpeg,2-PlayaDelCarmenFlag.jpeg
+Dorado Pr,Dorado Beach, A Ritz-Carlton Reserve   ,3-DisneyCruiseScene.jpeg,3-DisneyFlag.jpeg
+Ikeja Nigeria,Legend Hotel Lagos Airport, Curio Collection by Hilton,4-BahamaScene.jpeg,4-BahamasFlag.jpeg
+Spring Tx,Houston City Place Marriott at Springwoods Village,5-ThailandScene.jpeg,5-ThailandFlag.jpeg
+Wanning Portugal,DoubleTree Resort by Hilton,6-MediterraneanScene.jpeg,6-MediterraneanFlag.jpeg
+Lisbon Portugal,Ramada by Wyndham ,7-HawaiiScene.jpeg,7-HawaiiFlag.jpeg
+Chicago Il,Sophy Hyde Park,8-JamicaScene.jpeg,8-JamicaFlag.jpeg

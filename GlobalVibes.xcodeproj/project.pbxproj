@@ -48,6 +48,7 @@
 		5F00816050364801BFAAB24A /* libPods-GlobalVibesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */; };
 		7F56F07193085A7C98FAC1CC /* libPods-GlobalVibesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */; };
 		ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADF8DE8F20B64C79000EC30F /* TripList.txt */; };
+		E5CA0250C0546E534A8B004E /* libPods-GlobalVibes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		318FE45951334B6ECB61E031 /* Pods-GlobalVibesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E06B5522072B30D00A4AF95 /* 20-CambodiaFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20-CambodiaFlag.jpeg"; sourceTree = "<group>"; };
 		4E06B5532072B30E00A4AF95 /* 13-GreeceFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13-GreeceFlag.jpeg"; sourceTree = "<group>"; };
 		4E06B5542072B30E00A4AF95 /* 12-SantaBarbraFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12-SantaBarbraFlag.jpeg"; sourceTree = "<group>"; };
@@ -118,7 +120,12 @@
 		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
 		591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08638DC95E2ACE7D6C10B9A /* Pods-GlobalVibesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ADF8DE8F20B64C79000EC30F /* TripList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripList.txt; sourceTree = "<group>"; };
+		CE0745DB0E8985CA70E9D4AC /* Pods-GlobalVibesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesTests/Pods-GlobalVibesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE89430B54D3E47576F6B2D3 /* Pods-GlobalVibes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibes/Pods-GlobalVibes.debug.xcconfig"; sourceTree = "<group>"; };
+		E5782030E0FABC2D2665FA64 /* Pods-GlobalVibes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibes/Pods-GlobalVibes.release.xcconfig"; sourceTree = "<group>"; };
+		F2761CE29ED720F5D34C400C /* Pods-GlobalVibesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesTests/Pods-GlobalVibesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CA0250C0546E534A8B004E /* libPods-GlobalVibes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +175,7 @@
 				4E3F5FF020712CA600F4E97C /* GlobalVibesUITests */,
 				4E3F5FCB20712CA600F4E97C /* Products */,
 				43E967937F05CFAF728608E3 /* Frameworks */,
+				DE7E1D9679D08C3DA1429938 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,6 +280,19 @@
 			path = scenes;
 			sourceTree = "<group>";
 		};
+		DE7E1D9679D08C3DA1429938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE89430B54D3E47576F6B2D3 /* Pods-GlobalVibes.debug.xcconfig */,
+				E5782030E0FABC2D2665FA64 /* Pods-GlobalVibes.release.xcconfig */,
+				F2761CE29ED720F5D34C400C /* Pods-GlobalVibesTests.debug.xcconfig */,
+				CE0745DB0E8985CA70E9D4AC /* Pods-GlobalVibesTests.release.xcconfig */,
+				318FE45951334B6ECB61E031 /* Pods-GlobalVibesUITests.debug.xcconfig */,
+				A08638DC95E2ACE7D6C10B9A /* Pods-GlobalVibesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E3F5FF620712CA600F4E97C /* Build configuration list for PBXNativeTarget "GlobalVibes" */;
 			buildPhases = (
+				E6965D4E2D685E96087F2F89 /* [CP] Check Pods Manifest.lock */,
 				4E3F5FC620712CA600F4E97C /* Sources */,
 				4E3F5FC720712CA600F4E97C /* Frameworks */,
 				4E3F5FC820712CA600F4E97C /* Resources */,
@@ -299,8 +322,6 @@
 				4E3F5FDE20712CA600F4E97C /* Sources */,
 				4E3F5FDF20712CA600F4E97C /* Frameworks */,
 				4E3F5FE020712CA600F4E97C /* Resources */,
-				6DE4BAC0B92ABE06AF347198 /* [CP] Embed Pods Frameworks */,
-				6E64506D27718A9808CE4675 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,8 +341,6 @@
 				4E3F5FE920712CA600F4E97C /* Sources */,
 				4E3F5FEA20712CA600F4E97C /* Frameworks */,
 				4E3F5FEB20712CA600F4E97C /* Resources */,
-				C14ADAD5988EDE0AE9437E86 /* [CP] Embed Pods Frameworks */,
-				C87EFDE82CD39B5DCA4BF0B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,36 +463,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DE4BAC0B92ABE06AF347198 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlobalVibesTests/Pods-GlobalVibesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E64506D27718A9808CE4675 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlobalVibesTests/Pods-GlobalVibesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		85D6278B3978E8EB2010106D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,34 +499,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C14ADAD5988EDE0AE9437E86 /* [CP] Embed Pods Frameworks */ = {
+		E6965D4E2D685E96087F2F89 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobalVibes-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C87EFDE82CD39B5DCA4BF0B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -715,6 +692,7 @@
 		};
 		4E3F5FF720712CA600F4E97C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE89430B54D3E47576F6B2D3 /* Pods-GlobalVibes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -732,6 +710,7 @@
 		};
 		4E3F5FF820712CA600F4E97C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5782030E0FABC2D2665FA64 /* Pods-GlobalVibes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -748,6 +727,7 @@
 		};
 		4E3F5FFA20712CA600F4E97C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2761CE29ED720F5D34C400C /* Pods-GlobalVibesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -763,6 +743,7 @@
 		};
 		4E3F5FFB20712CA600F4E97C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0745DB0E8985CA70E9D4AC /* Pods-GlobalVibesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -778,6 +759,7 @@
 		};
 		4E3F5FFD20712CA600F4E97C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318FE45951334B6ECB61E031 /* Pods-GlobalVibesUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
@@ -792,6 +774,7 @@
 		};
 		4E3F5FFE20712CA600F4E97C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08638DC95E2ACE7D6C10B9A /* Pods-GlobalVibesUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
