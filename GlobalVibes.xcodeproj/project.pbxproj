@@ -46,6 +46,15 @@
 		4EF820FC2071AFBC00E72569 /* 7-HawaiiFlag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */; };
 		4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */; };
 		5F00816050364801BFAAB24A /* libPods-GlobalVibesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */; };
+		6E02F1F32210DEDB00344452 /* Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1EA2210DEDA00344452 /* Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg */; };
+		6E02F1F42210DEDB00344452 /* Lisbon_Portugal_Ramada_by_Wyndham.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1EB2210DEDA00344452 /* Lisbon_Portugal_Ramada_by_Wyndham.jpeg */; };
+		6E02F1F52210DEDB00344452 /* Wanning_China_DoubleTree_Resort_by_Hilton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1EC2210DEDA00344452 /* Wanning_China_DoubleTree_Resort_by_Hilton.jpeg */; };
+		6E02F1F62210DEDB00344452 /* Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1ED2210DEDA00344452 /* Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg */; };
+		6E02F1F72210DEDB00344452 /* Burgenstock Resort Lake Lucerne.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1EE2210DEDA00344452 /* Burgenstock Resort Lake Lucerne.jpeg */; };
+		6E02F1F82210DEDB00344452 /* Chicago_Il_Sophy_Hyde_Park.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1EF2210DEDB00344452 /* Chicago_Il_Sophy_Hyde_Park.jpeg */; };
+		6E02F1F92210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F02210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg */; };
+		6E02F1FA2210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F12210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg */; };
+		6E02F1FB2210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */; };
 		7F56F07193085A7C98FAC1CC /* libPods-GlobalVibesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */; };
 		ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADF8DE8F20B64C79000EC30F /* TripList.txt */; };
 		E5CA0250C0546E534A8B004E /* libPods-GlobalVibes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB28BA142EA95AC1404DCA21 /* libPods-GlobalVibes.a */; };
@@ -119,6 +128,15 @@
 		4EF820F52071AFBC00E72569 /* 7-HawaiiFlag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-HawaiiFlag.jpeg"; sourceTree = "<group>"; };
 		4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "global-vibes-final-logo.jpg"; sourceTree = "<group>"; };
 		591930DAFE141952E8883105 /* libPods-GlobalVibesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E02F1EA2210DEDA00344452 /* Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg; sourceTree = "<group>"; };
+		6E02F1EB2210DEDA00344452 /* Lisbon_Portugal_Ramada_by_Wyndham.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lisbon_Portugal_Ramada_by_Wyndham.jpeg; sourceTree = "<group>"; };
+		6E02F1EC2210DEDA00344452 /* Wanning_China_DoubleTree_Resort_by_Hilton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wanning_China_DoubleTree_Resort_by_Hilton.jpeg; sourceTree = "<group>"; };
+		6E02F1ED2210DEDA00344452 /* Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg"; sourceTree = "<group>"; };
+		6E02F1EE2210DEDA00344452 /* Burgenstock Resort Lake Lucerne.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burgenstock Resort Lake Lucerne.jpeg"; sourceTree = "<group>"; };
+		6E02F1EF2210DEDB00344452 /* Chicago_Il_Sophy_Hyde_Park.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chicago_Il_Sophy_Hyde_Park.jpeg; sourceTree = "<group>"; };
+		6E02F1F02210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg; sourceTree = "<group>"; };
+		6E02F1F12210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg; sourceTree = "<group>"; };
+		6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg"; sourceTree = "<group>"; };
 		7240E4157F44E733B338BFBD /* libPods-GlobalVibesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalVibesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08638DC95E2ACE7D6C10B9A /* Pods-GlobalVibesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalVibesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalVibesUITests/Pods-GlobalVibesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ADF8DE8F20B64C79000EC30F /* TripList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripList.txt; sourceTree = "<group>"; };
@@ -268,6 +286,7 @@
 		4EF820E02071AF9900E72569 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				6E02F1E92210DEB400344452 /* NewHotels */,
 				4EF820E52071AFB000E72569 /* 1-BrumudaScene.jpeg */,
 				4EF820E62071AFB100E72569 /* 2-PlayaDelCarmenScene.jpeg */,
 				4EF820E32071AFB000E72569 /* 3-DisneyCruiseScene.jpeg */,
@@ -278,6 +297,22 @@
 				4EAEC21E20CD88B4001A6928 /* 8-JamicaScene.jpeg */,
 			);
 			path = scenes;
+			sourceTree = "<group>";
+		};
+		6E02F1E92210DEB400344452 /* NewHotels */ = {
+			isa = PBXGroup;
+			children = (
+				6E02F1EE2210DEDA00344452 /* Burgenstock Resort Lake Lucerne.jpeg */,
+				6E02F1EF2210DEDB00344452 /* Chicago_Il_Sophy_Hyde_Park.jpeg */,
+				6E02F1ED2210DEDA00344452 /* Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg */,
+				6E02F1F12210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg */,
+				6E02F1EB2210DEDA00344452 /* Lisbon_Portugal_Ramada_by_Wyndham.jpeg */,
+				6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */,
+				6E02F1F02210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg */,
+				6E02F1EA2210DEDA00344452 /* Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg */,
+				6E02F1EC2210DEDA00344452 /* Wanning_China_DoubleTree_Resort_by_Hilton.jpeg */,
+			);
+			path = NewHotels;
 			sourceTree = "<group>";
 		};
 		DE7E1D9679D08C3DA1429938 /* Pods */ = {
@@ -413,16 +448,23 @@
 				4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */,
 				4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */,
 				4E3F5FDA20712CA600F4E97C /* LaunchScreen.storyboard in Resources */,
+				6E02F1F72210DEDB00344452 /* Burgenstock Resort Lake Lucerne.jpeg in Resources */,
 				ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */,
 				4E06B5662072B31000A4AF95 /* 11-LosCabosFlag.jpeg in Resources */,
 				4EF820EE2071AFB100E72569 /* 5-ThailandScene.jpeg in Resources */,
 				4E06B5692072B31000A4AF95 /* 15-IndonesiaFlag.jpeg in Resources */,
+				6E02F1F92210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg in Resources */,
 				4EF820EA2071AFB100E72569 /* 3-DisneyCruiseScene.jpeg in Resources */,
 				4EF820E92071AFB100E72569 /* 6-MediterraneanScene.jpeg in Resources */,
+				6E02F1FB2210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg in Resources */,
 				4EF820F72071AFBC00E72569 /* 5-ThailandFlag.jpeg in Resources */,
+				6E02F1FA2210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg in Resources */,
+				6E02F1F32210DEDB00344452 /* Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg in Resources */,
+				6E02F1F42210DEDB00344452 /* Lisbon_Portugal_Ramada_by_Wyndham.jpeg in Resources */,
 				4E06B5682072B31000A4AF95 /* 9-FijiFlag.jpeg in Resources */,
 				4E06B55F2072B31000A4AF95 /* 20-CambodiaFlag.jpeg in Resources */,
 				4E06B5602072B31000A4AF95 /* 13-GreeceFlag.jpeg in Resources */,
+				6E02F1F52210DEDB00344452 /* Wanning_China_DoubleTree_Resort_by_Hilton.jpeg in Resources */,
 				4E06B56B2072B31000A4AF95 /* 14-RivieraMayaFlag.jpeg in Resources */,
 				4E06B5612072B31000A4AF95 /* 12-SantaBarbraFlag.jpeg in Resources */,
 				4EF820FC2071AFBC00E72569 /* 7-HawaiiFlag.jpeg in Resources */,
@@ -434,6 +476,8 @@
 				4EF820EC2071AFB100E72569 /* 1-BrumudaScene.jpeg in Resources */,
 				4E06B56D2072C4E900A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg in Resources */,
 				4EF820EB2071AFB100E72569 /* 4-BahamaScene.jpeg in Resources */,
+				6E02F1F82210DEDB00344452 /* Chicago_Il_Sophy_Hyde_Park.jpeg in Resources */,
+				6E02F1F62210DEDB00344452 /* Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg in Resources */,
 				4E3F5FD720712CA600F4E97C /* Assets.xcassets in Resources */,
 				4EAEC21F20CD88B4001A6928 /* 8-JamicaScene.jpeg in Resources */,
 				4E06B5642072B31000A4AF95 /* 18-IbizaFlag.jpeg in Resources */,
