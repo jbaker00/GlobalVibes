@@ -182,9 +182,9 @@
 #pragma mark Table view stuff
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    strSelectedDestination = trips[indexPath.row][2];
-    strPicture = trips[indexPath.row][4];
-    //strDestURL = trips[indexPath.row][5];
+    strSelectedDestination = trips[indexPath.row][1];
+    strPicture = trips[indexPath.row][3];
+    strDestURL = trips[indexPath.row][4];
 
     [self performSegueWithIdentifier:@"showBooking" sender:self];
     

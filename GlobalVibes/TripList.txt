@@ -1,9 +1,9 @@
-NADA,NADA,NADA,NADA
-Muscat Oman,Al Bustan Palace Ritz-Carlton Hotel,Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg,Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg
-San Antonio Tx,TownePlace Suites by Marriott,San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg,San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg
-Dorado Pr,Dorado Beach, A Ritz-Carlton Reserve,Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg,Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg
-Ikeja Nigeria,Legend Hotel Lagos Airport, Curio Collection by Hilton,Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg,Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg
-Spring Tx,Houston City Place Marriott at Springwoods Village,Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg,Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg
-Wanning China,DoubleTree Resort by Hilton,Wanning_China_DoubleTree_Resort_by_Hilton.jpeg,Wanning_China_DoubleTree_Resort_by_Hilton.jpeg
-Lisbon Portugal,Ramada by Wyndham,Lisbon_Portugal_Ramada_by_Wyndham.jpeg,Lisbon_Portugal_Ramada_by_Wyndham.jpeg
-Chicago Il,Sophy Hyde Park,Chicago_Il_Sophy_Hyde_Park.jpeg,Chicago_Il_Sophy_Hyde_Park.jpeg
+NADA,NADA,NADA,NADA,NADA
+Muscat Oman,Al Bustan Palace Ritz-Carlton Hotel,Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg,Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg,https://www.booking.com/hotel/om/al-bustan-palace-ritz-carlton.en.html?aid=377688&no_rooms=1&group_adults=1
+San Antonio Tx,TownePlace Suites by Marriott,San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg,San_Antonio_Tx_TownePlace_Suites_by_Marriott_LG.jpeg,https://www.booking.com/hotel/us/towneplace-suites-by-marriott-san-antonio-westover-hills.en.html?aid=377688&no_rooms=1&group_adults=1
+Dorado Pr,Dorado Beach, A Ritz-Carlton Reserve,Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg,Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg,https://www.booking.com/hotel/pr/dorado-beach-a-ritz-carlton-reserve.en.html?aid=377688&no_rooms=1&group_adults=1
+Ikeja Nigeria,Legend Hotel Lagos Airport, Curio Collection by Hilton,Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg,Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg,https://www.booking.com/hotel/ng/legend-lagos-airport-curio-collection-by-hilton.en.html?aid=376407&no_rooms=1&group_adults=1
+Spring Tx,Houston City Place Marriott at Springwoods Village,Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg,Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg,https://www.booking.com/hotel/us/houston-cityplace-marriott-at-springwoods-village.en.html?aid=376407&no_rooms=1&group_adults=1
+Wanning China,DoubleTree Resort by Hilton,Wanning_China_DoubleTree_Resort_by_Hilton.jpeg,Wanning_China_DoubleTree_Resort_by_Hilton.jpeg,https://www.booking.com/hotel/cn/doubletree-resort-by-hilton-hainan-xinglong-lakeside.en.html?aid=376407&no_rooms=1&group_adults=1
+Lisbon Portugal,Ramada by Wyndham,Lisbon_Portugal_Ramada_by_Wyndham.jpeg,Lisbon_Portugal_Ramada_by_Wyndham.jpeg,https://www.booking.com/hotel/pt/altisparklisboa.en.html?aid=376407&no_rooms=1&group_adults=1
+Chicago Il,Sophy Hyde Park,Chicago_Il_Sophy_Hyde_Park.jpeg,Chicago_Il_Sophy_Hyde_Park.jpeg,https://www.booking.com/hotel/us/sophy-hyde-park.en.html?aid=376407&no_rooms=1&group_adults=1

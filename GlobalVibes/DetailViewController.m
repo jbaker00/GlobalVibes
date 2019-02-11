@@ -20,9 +20,31 @@
     
     // Do any additional setup after loading the view.
     
+    //Output the Passed in segway variables
+    NSLog(@"Destination is %@", destination);
+    NSLog(@"Picture name is %@", picture);
+    NSLog(@"URL is %@",destURL);
+
     //Set the image to the incomming image here
     //imgTrip = destination;
     NSLog(@"Exiting DetailViewController::viewDidLoad");
+}
+- (IBAction)btnBookIt:(id)sender
+{
+    UIApplication *application = [UIApplication sharedApplication];
+    NSURL *URL = [NSURL URLWithString:destURL];
+    if ([application respondsToSelector:@selector(openURL:options:completionHandler:)])
+    {
+        [application openURL:URL options:@{}
+           completionHandler:^(BOOL success) {
+               NSLog(@"Open %@: %d",self->destURL,success);
+           }];
+    }
+    else
+    {
+        BOOL success = [application openURL:URL];
+        NSLog(@"Open %@: %d",destURL,success);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
