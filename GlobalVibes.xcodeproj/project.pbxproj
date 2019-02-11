@@ -743,6 +743,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = GlobalVibes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baker.GlobalVibes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -761,6 +762,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = GlobalVibes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baker.GlobalVibes;
 				PRODUCT_NAME = "$(TARGET_NAME)";

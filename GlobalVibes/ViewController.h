@@ -11,7 +11,9 @@
 
 @interface ViewController : UIViewController
 {
-    @public NSString *strselectedDestination;
+    @public NSString *strSelectedDestination;
+    @public NSString *strDestURL;
+    @public NSString *strPicture;
     
 }
 

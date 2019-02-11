@@ -7,11 +7,16 @@
 //
 
 #import "ViewController.h"
+@import GoogleMobileAds;
+#import <sys/utsname.h>
 
-@interface ViewController ()
+
+@interface ViewController () <GADBannerViewDelegate>
 {
     
 }
+
+@property(nonatomic, strong) GADBannerView *bannerView;
 
 
 @end
@@ -27,17 +32,77 @@
 
 @implementation ViewController
 
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    [GADMobileAds configureWithApplicationID:@"ca-app-pub-7871017136061682~9826313932"];
+    return YES;
+}
+
 @synthesize lastOrientation;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Entering ViewController::viewDidLoad");
     
+    //Call to load the google banner Ad
+    [self loadGoogleAd];
+    
+
     //Load the trips from the trip file
     trips = [self loadTripsFromFile:@"TripList"];
 
     NSLog(@"Exiting ViewController::viewDidLoad");
 
+}
+
+- (void)loadGoogleAd
+{
+    NSLog(@"Entering ViewController::loadGoogleAd");
+
+    self.bannerView = [[GADBannerView alloc]
+                       initWithAdSize:kGADAdSizeSmartBannerPortrait];
+    
+    [self addBannerViewToView:self.bannerView];
+    
+    //Configure GADBannerView properties
+    self.bannerView.adUnitID = @"ca-app-pub-7871017136061682/4609646273";
+    //self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+    self.bannerView.rootViewController = self;
+    
+    //Load the Banner Ad
+    [self.bannerView loadRequest:[GADRequest request]];
+    
+    //Register for the Banner events
+    NSLog(@"rootViewController : %@", _bannerView.rootViewController);
+    _bannerView.delegate = self;
+
+    
+    NSLog(@"Exiting ViewController::loadGoogleAd");
+}
+
+- (void)addBannerViewToView:(UIView *)bannerView
+{
+    NSLog(@"Entering ViewController::addBannerViewToView");
+
+    bannerView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:bannerView];
+    [self.view addConstraints:@[
+                                [NSLayoutConstraint constraintWithItem:bannerView
+                                                             attribute:NSLayoutAttributeBottom
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.bottomLayoutGuide
+                                                             attribute:NSLayoutAttributeTop
+                                                            multiplier:1
+                                                              constant:0],
+                                [NSLayoutConstraint constraintWithItem:bannerView
+                                                             attribute:NSLayoutAttributeCenterX
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.view
+                                                             attribute:NSLayoutAttributeCenterX
+                                                            multiplier:1
+                                                              constant:0]
+                                ]];
+    NSLog(@"Exiting ViewController::addBannerViewToView");
 }
 
 -(NSMutableArray*)loadTripsFromFile:(NSString*)fileName
@@ -109,13 +174,17 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     DetailViewController *controller = [segue destinationViewController];
-    controller->destination = strselectedDestination;
+    controller->destination = strSelectedDestination;
+    controller->picture = strPicture;
+    controller->destURL = strDestURL;
 }
 
 #pragma mark Table view stuff
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    strselectedDestination = trips[indexPath.row][2];
+    strSelectedDestination = trips[indexPath.row][2];
+    strPicture = trips[indexPath.row][4];
+    //strDestURL = trips[indexPath.row][5];
 
     [self performSegueWithIdentifier:@"showBooking" sender:self];
     
@@ -169,6 +238,44 @@
     }];
 }
 
+#pragma GoogleAdCode
+/// Tells the delegate an ad request loaded an ad.
+- (void)adViewDidReceiveAd:(GADBannerView *)adView {
+    NSLog(@"adViewDidReceiveAd");
+    // Add adView to view and add constraints as above.  Basic Add
+    //[self addBannerViewToView:self.bannerView];
+    adView.alpha = 0;
+    [UIView animateWithDuration:1.0 animations:^{
+        adView.alpha = 1;
+    }];
+}
 
+/// Tells the delegate an ad request failed.
+- (void)adView:(GADBannerView *)adView
+didFailToReceiveAdWithError:(GADRequestError *)error {
+    NSLog(@"adView:didFailToReceiveAdWithError: %@", [error localizedDescription]);
+}
+
+/// Tells the delegate that a full-screen view will be presented in response
+/// to the user clicking on an ad.
+- (void)adViewWillPresentScreen:(GADBannerView *)adView {
+    NSLog(@"adViewWillPresentScreen");
+}
+
+/// Tells the delegate that the full-screen view will be dismissed.
+- (void)adViewWillDismissScreen:(GADBannerView *)adView {
+    NSLog(@"adViewWillDismissScreen");
+}
+
+/// Tells the delegate that the full-screen view has been dismissed.
+- (void)adViewDidDismissScreen:(GADBannerView *)adView {
+    NSLog(@"adViewDidDismissScreen");
+}
+
+/// Tells the delegate that a user click will open another app (such as
+/// the App Store), backgrounding the current app.
+- (void)adViewWillLeaveApplication:(GADBannerView *)adView {
+    NSLog(@"adViewWillLeaveApplication");
+}
 
 @end

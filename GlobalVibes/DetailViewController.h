@@ -11,6 +11,8 @@
 @interface DetailViewController : UIViewController
 {
     @public NSString *destination;
+    @public NSString *picture;
+    @public NSString *destURL;
     
 }
 @property (weak, nonatomic) IBOutlet UIImageView *imgTrip;
