@@ -3,7 +3,7 @@
 //  GlobalVibes
 //
 //  Created by James Baker on 4/1/18.
-//  Copyright © 2018 James Baker. All rights reserved.
+//  Copyright © 2018 James Baker. All rights reserved. 
 //
 
 #import "AppDelegate.h"
@@ -18,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FIRApp configure];
+
     [self.window makeKeyAndVisible];
     return YES;
 }

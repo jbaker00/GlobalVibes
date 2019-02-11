@@ -49,6 +49,7 @@
 		6E02F1FB2210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */; };
 		6E0D875C22115C2900F40FE7 /* global-vibes-final-logo57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0D875A22115C2800F40FE7 /* global-vibes-final-logo57x57.png */; };
 		6E0D875D22115C2900F40FE7 /* global-vibes-final-logo512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0D875B22115C2800F40FE7 /* global-vibes-final-logo512x512.png */; };
+		6E0D875F2211617F00F40FE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E0D875E2211617E00F40FE7 /* GoogleService-Info.plist */; };
 		6E6D817022114CC600B6D961 /* Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D816722114CC500B6D961 /* Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg */; };
 		6E6D817122114CC600B6D961 /* Chicago_Il_Sophy_Hyde_Park_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D816822114CC500B6D961 /* Chicago_Il_Sophy_Hyde_Park_LG.jpeg */; };
 		6E6D817222114CC600B6D961 /* Burgenstock Resort Lake Lucerne_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D816922114CC500B6D961 /* Burgenstock Resort Lake Lucerne_LG.jpeg */; };
@@ -134,6 +135,7 @@
 		6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg"; sourceTree = "<group>"; };
 		6E0D875A22115C2800F40FE7 /* global-vibes-final-logo57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-vibes-final-logo57x57.png"; sourceTree = "<group>"; };
 		6E0D875B22115C2800F40FE7 /* global-vibes-final-logo512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-vibes-final-logo512x512.png"; sourceTree = "<group>"; };
+		6E0D875E2211617E00F40FE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6E6D816722114CC500B6D961 /* Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg; sourceTree = "<group>"; };
 		6E6D816822114CC500B6D961 /* Chicago_Il_Sophy_Hyde_Park_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chicago_Il_Sophy_Hyde_Park_LG.jpeg; sourceTree = "<group>"; };
 		6E6D816922114CC500B6D961 /* Burgenstock Resort Lake Lucerne_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burgenstock Resort Lake Lucerne_LG.jpeg"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				4E3F5FD620712CA600F4E97C /* Assets.xcassets */,
 				4E3F5FD820712CA600F4E97C /* LaunchScreen.storyboard */,
 				4E3F5FDB20712CA600F4E97C /* Info.plist */,
+				6E0D875E2211617E00F40FE7 /* GoogleService-Info.plist */,
 				4E3F5FDC20712CA600F4E97C /* main.m */,
 				ADF8DE8F20B64C79000EC30F /* TripList.txt */,
 				4EAEC22020CDAC87001A6928 /* DetailViewController.h */,
@@ -481,6 +484,7 @@
 				6E02F1F32210DEDB00344452 /* Spring_Tx_Houston_City_Place_Marriott_at_Springwoods_Village.jpeg in Resources */,
 				6E02F1F42210DEDB00344452 /* Lisbon_Portugal_Ramada_by_Wyndham.jpeg in Resources */,
 				4E06B5682072B31000A4AF95 /* 9-FijiFlag.jpeg in Resources */,
+				6E0D875F2211617F00F40FE7 /* GoogleService-Info.plist in Resources */,
 				4E06B55F2072B31000A4AF95 /* 20-CambodiaFlag.jpeg in Resources */,
 				4E06B5602072B31000A4AF95 /* 13-GreeceFlag.jpeg in Resources */,
 				6E02F1F52210DEDB00344452 /* Wanning_China_DoubleTree_Resort_by_Hilton.jpeg in Resources */,
