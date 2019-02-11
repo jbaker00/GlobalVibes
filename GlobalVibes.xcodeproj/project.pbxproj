@@ -47,6 +47,8 @@
 		6E02F1F92210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F02210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott.jpeg */; };
 		6E02F1FA2210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F12210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg */; };
 		6E02F1FB2210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */; };
+		6E0D875C22115C2900F40FE7 /* global-vibes-final-logo57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0D875A22115C2800F40FE7 /* global-vibes-final-logo57x57.png */; };
+		6E0D875D22115C2900F40FE7 /* global-vibes-final-logo512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0D875B22115C2800F40FE7 /* global-vibes-final-logo512x512.png */; };
 		6E6D817022114CC600B6D961 /* Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D816722114CC500B6D961 /* Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg */; };
 		6E6D817122114CC600B6D961 /* Chicago_Il_Sophy_Hyde_Park_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D816822114CC500B6D961 /* Chicago_Il_Sophy_Hyde_Park_LG.jpeg */; };
 		6E6D817222114CC600B6D961 /* Burgenstock Resort Lake Lucerne_LG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D816922114CC500B6D961 /* Burgenstock Resort Lake Lucerne_LG.jpeg */; };
@@ -130,6 +132,8 @@
 		6E02F1F02210DEDB00344452 /* San_Antonio_Tx_TownePlace_Suites_by_Marriott.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = San_Antonio_Tx_TownePlace_Suites_by_Marriott.jpeg; sourceTree = "<group>"; };
 		6E02F1F12210DEDB00344452 /* Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ikeja_Nigeria_Legend_Hotel_Lagos_Airport.jpeg; sourceTree = "<group>"; };
 		6E02F1F22210DEDB00344452 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel.jpeg"; sourceTree = "<group>"; };
+		6E0D875A22115C2800F40FE7 /* global-vibes-final-logo57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-vibes-final-logo57x57.png"; sourceTree = "<group>"; };
+		6E0D875B22115C2800F40FE7 /* global-vibes-final-logo512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-vibes-final-logo512x512.png"; sourceTree = "<group>"; };
 		6E6D816722114CC500B6D961 /* Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wanning_China_DoubleTree_Resort_by_Hilton_LG.jpeg; sourceTree = "<group>"; };
 		6E6D816822114CC500B6D961 /* Chicago_Il_Sophy_Hyde_Park_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chicago_Il_Sophy_Hyde_Park_LG.jpeg; sourceTree = "<group>"; };
 		6E6D816922114CC500B6D961 /* Burgenstock Resort Lake Lucerne_LG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burgenstock Resort Lake Lucerne_LG.jpeg"; sourceTree = "<group>"; };
@@ -251,6 +255,8 @@
 		4EF820DE2071AF8A00E72569 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6E0D875A22115C2800F40FE7 /* global-vibes-final-logo57x57.png */,
+				6E0D875B22115C2800F40FE7 /* global-vibes-final-logo512x512.png */,
 				4EF820FD2071B25A00E72569 /* global-vibes-final-logo.jpg */,
 				4EF820E02071AF9900E72569 /* scenes */,
 				4EF820DF2071AF9300E72569 /* flags */,
@@ -460,6 +466,7 @@
 				4EF820FE2071B25B00E72569 /* global-vibes-final-logo.jpg in Resources */,
 				4EF820F92071AFBC00E72569 /* 4-BahamasFlag.jpeg in Resources */,
 				4E3F5FDA20712CA600F4E97C /* LaunchScreen.storyboard in Resources */,
+				6E0D875D22115C2900F40FE7 /* global-vibes-final-logo512x512.png in Resources */,
 				6E02F1F72210DEDB00344452 /* Burgenstock Resort Lake Lucerne.jpeg in Resources */,
 				ADF8DE9020B64C79000EC30F /* TripList.txt in Resources */,
 				4E06B5662072B31000A4AF95 /* 11-LosCabosFlag.jpeg in Resources */,
@@ -490,6 +497,7 @@
 				4EF820FB2071AFBC00E72569 /* 6-MediterraneanFlag.jpeg in Resources */,
 				6E6D817422114CC600B6D961 /* Muscat_Oman_Al_Bustan_Palace_Ritz-Carlton_Hotel_LG.jpeg in Resources */,
 				4E06B56D2072C4E900A4AF95 /* 17-StVincentTheGrenadinesFlag.jpeg in Resources */,
+				6E0D875C22115C2900F40FE7 /* global-vibes-final-logo57x57.png in Resources */,
 				6E02F1F82210DEDB00344452 /* Chicago_Il_Sophy_Hyde_Park.jpeg in Resources */,
 				6E02F1F62210DEDB00344452 /* Dorado_Pr_Dorado_Beach_A_Ritz-Carlton_Reserve.jpeg in Resources */,
 				4E3F5FD720712CA600F4E97C /* Assets.xcassets in Resources */,
