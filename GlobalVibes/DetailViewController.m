@@ -34,6 +34,17 @@
 - (IBAction)btnBookIt:(id)sender
 {
     UIApplication *application = [UIApplication sharedApplication];
+    //localisationName is a arbitrary string here
+    //NSString* webName = [self->destURL stringByAddingPercentEncodingWithAllowedCharacters:NSUTF8StringEncoding];
+    //NSString* stringURL = [NSString stringWithFormat:self->destURL, webName];
+    //NSString* webStringURL = [stringURL stringByAddingPercentEncodingWithAllowedCharacters:NSUTF8StringEncoding];
+    //NSURL* URL = [NSURL URLWithString:webStringURL];
+    
+    NSMutableCharacterSet *alphaNumSymbols = [NSMutableCharacterSet characterSetWithCharactersInString:@"~!@#$&*()-_+=[]:;',/?."];
+    [alphaNumSymbols formUnionWithCharacterSet:[NSCharacterSet alphanumericCharacterSet]];
+    
+    self->destURL = [self->destURL stringByAddingPercentEncodingWithAllowedCharacters:alphaNumSymbols];
+    
     NSURL *URL = [NSURL URLWithString:destURL];
     if ([application respondsToSelector:@selector(openURL:options:completionHandler:)])
     {
