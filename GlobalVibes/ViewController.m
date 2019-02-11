@@ -213,7 +213,7 @@
     {
         //cell.textLabel.text = [trips objectAtIndex:indexPath.row];
         cell.textLabel.text = trips[indexPath.row][1];
-        cell.imageView.image = [UIImage imageNamed:trips[indexPath.row][3]];
+        cell.imageView.image = [UIImage imageNamed:trips[indexPath.row][2]];
         //cell.imageView.image = [UIImage imageNamed:[flags objectAtIndex:indexPath.row]];
     }
     NSLog(@"Entering ViewController:UITAbleView cellForRowAtIndexPath");

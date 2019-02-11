@@ -27,6 +27,8 @@
 
     //Set the image to the incomming image here
     //imgTrip = destination;
+    _imgTrip.image = [UIImage imageNamed:picture];
+    
     NSLog(@"Exiting DetailViewController::viewDidLoad");
 }
 - (IBAction)btnBookIt:(id)sender
